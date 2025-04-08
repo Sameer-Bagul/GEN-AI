@@ -1,0 +1,13 @@
+prefix=D:/Programming/GEN AI/venv1/Library
+exec_prefix=D:/Programming/GEN AI/venv1/Library
+libdir=D:/Programming/GEN AI/venv1/Library/lib
+sharedlibdir=D:/Programming/GEN AI/venv1/Library/lib
+includedir=D:/Programming/GEN AI/venv1/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
